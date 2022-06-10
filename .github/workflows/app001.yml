@@ -15,5 +15,6 @@ jobs:
         MIDDLE_NAME: The
         LAST_NAME: Octocat
       run: |
-        pytest
-        pip3 install pytest Flask-Testing
+        pip3 install -r requirements.txt;
+        pytest;
+        
