@@ -16,3 +16,4 @@ jobs:
         LAST_NAME: Octocat
       run: |
         pytest
+        pip3 install pytest Flask-Testing
